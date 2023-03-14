@@ -3,6 +3,10 @@
 * Author:  Jason Paul
 * Email:  jasonpa@gmail.com
 
+## Article
+
+For companion article, visit linuxtek.ca at [this link](https://www.linuxtek.ca/2023/01/03/self-hosting-bitwarden-on-aws/).
+
 ## Introduction
 
 This project includes resources for spinning up an AWS environment ready to install [Bitwarden](https://Bitwarden.com/) for self hosting.  The environment in AWS is created using Terraform.  It creates the following:
