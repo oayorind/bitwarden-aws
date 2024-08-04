@@ -9,7 +9,7 @@ sudo sed -i '/127.0.0.1 localhost/a 127.0.0.1 bitwarden' /etc/cloud/templates/ho
 sudo sed -i '/127.0.0.1 localhost/a 127.0.0.1 bitwarden' /etc/hosts
 
 # Configure Date/Time
-sudo timedatectl set-timezone America/Toronto
+# sudo timedatectl set-timezone America/Toronto
 
 # Install Prerequisites
 sudo apt update
