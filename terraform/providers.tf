@@ -1,7 +1,4 @@
-# --- providers.tf ---
-# 
-#Author:    Jason Paul 
-#Email:     jasonpa@gmail.com
+
 
 terraform {
   required_providers {

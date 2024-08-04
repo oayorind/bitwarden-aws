@@ -1,7 +1,4 @@
-# --- vpc.tf ---
-# 
-#Author:    Jason Paul 
-#Email:     jasonpa@gmail.com
+
 
 resource "aws_vpc" "vpc" {
   cidr_block           = var.vpc-cidr

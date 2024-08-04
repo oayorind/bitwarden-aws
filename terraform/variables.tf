@@ -1,16 +1,13 @@
-# --- variables.tf ---
-# 
-#Author:    Jason Paul 
-#Email:     jasonpa@gmail.com
+
 
 variable "aws_region" {
-  default     = "us-east-1"
+  default     = "us-west-2"
   description = "AWS Region to Deploy to"
   type        = string
 }
 
 variable "aws_availability_zone" {
-  default     = "us-east-1a"
+  default     = "us-west-2a"
   description = "AWS AZ to Deploy to"
   type        = string
 }

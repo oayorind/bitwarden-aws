@@ -1,7 +1,4 @@
-# --- ec2.tf ---
-# 
-#Author:    Jason Paul 
-#Email:     jasonpa@gmail.com
+
 
 # Create EC2 instance for hosting Bitwarden
 
@@ -15,6 +12,7 @@ resource "aws_instance" "ec2_bitwarden" {
 
   tags = {
     Name = "Bitwarden"
+    createdby = "oye"
   }
   user_data = file("userdata.sh")
 }
@@ -23,7 +21,7 @@ resource "aws_instance" "ec2_bitwarden" {
 
 resource "aws_ebs_volume" "ebs_bitwarden" {
   availability_zone = var.aws_availability_zone
-  size              = 50
+  size              = 20
   encrypted         = true
   tags = {
     Name = "Bitwarden EBS Volume"
